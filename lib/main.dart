@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.cyan[600],
         body: SafeArea(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -28,13 +28,13 @@ class MyApp extends StatelessWidget {
                   fontSize: 30,
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
-                  fontFamily: 'Pacifico',
+                  fontFamily: 'Sriracha',
                 ),
               ),
               Text(
                 'FLUTTER DEVELOPER',
                 style: TextStyle(
-                  color: Colors.teal[50],
+                  color: Colors.cyan[50],
                   fontFamily: 'Source Sans Pro',
                   fontWeight: FontWeight.bold,
                   letterSpacing: 2.5,
@@ -42,9 +42,9 @@ class MyApp extends StatelessWidget {
               ),
               SizedBox(
                 height: 10,
-                width: 250,
+                width: 200,
                 child: Divider(
-                  color: Colors.teal[100],
+                  color: Colors.cyan[100],
                 ),
               ),
               Card(
@@ -56,7 +56,7 @@ class MyApp extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(
                       Icons.phone,
-                      color: Colors.teal[800],
+                      color: Colors.cyan[800],
                       size: 30,
                     ),
                   title: Text(
@@ -78,7 +78,7 @@ class MyApp extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(
                       Icons.email,
-                      color: Colors.teal[800],
+                      color: Colors.cyan[800],
                       size: 30,
                     ),
                     title: Text(

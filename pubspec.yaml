@@ -29,6 +29,10 @@ flutter:
 
     - family: Source Sans Pro
       fonts:
-        - asset: fonts/SourceSansPro-Regular.ttf    
+        - asset: fonts/SourceSansPro-Regular.ttf
+
+    - family: Sriracha
+      fonts:
+        - asset: fonts/Sriracha-Regular.ttf    
 
   
